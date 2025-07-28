@@ -8,6 +8,8 @@ const Height = React.lazy(() => import("./Components/_05_Height")); // for heavy
 const Size = React.lazy(() => import("./Components/_06_Size")); // for heavy components
 const Position = React.lazy(() => import("./Components/_07_Position")); // for heavy components
 const Container = React.lazy(() => import("./Components/_08_Container")); // for heavy components
+const Background = React.lazy(() => import("./Components/_09_Background")); // for heavy components
+const FilterImage = React.lazy(() => import("./Components/_10_FilterImage")); // for heavy components
 const MarginPadding = React.lazy(
   () => import("./Components/_03_MarginPadding")
 ); // for heavy components
@@ -80,6 +82,23 @@ const App = () => {
       element: (
         <Suspense fallback={<Loading />}>
           <Container />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/09background",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <Background />
+        </Suspense>
+      ),
+    },
+    {
+      path: "/10filterimage",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <FilterImage />
         </Suspense>
       ),
     },
