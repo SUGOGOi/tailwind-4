@@ -11,6 +11,7 @@ const Container = React.lazy(() => import("./Components/_08_Container")); // for
 const Background = React.lazy(() => import("./Components/_09_Background")); // for heavy components
 const FilterImage = React.lazy(() => import("./Components/_10_FilterImage")); // for heavy components
 const MediaQuery = React.lazy(() => import("./Components/_12_MediaQuery")); // for heavy components
+const Column = React.lazy(() => import("./Components/_13_Column")); // for heavy components
 const Interactivity = React.lazy(
   () => import("./Components/_11_Interactivity")
 ); // for heavy components
@@ -121,6 +122,15 @@ const App = () => {
       element: (
         <Suspense fallback={<Loading />}>
           <MediaQuery />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/13-column",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <Column />
         </Suspense>
       ),
     },
