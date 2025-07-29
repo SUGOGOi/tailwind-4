@@ -1,6 +1,6 @@
 const _06_Size = () => {
   return (
-    <div className="h-screen flex">
+    <div className="h-screen flex mt-14">
       <div className="bg-amber-200 w-50 h-50 hover:size-100 text-xl text-center">
         Box 1 w-50 h-50
       </div>

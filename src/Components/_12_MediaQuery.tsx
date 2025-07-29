@@ -1,6 +1,6 @@
 const _12_MediaQuery = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen mt-14">
       <div className="bg-cyan-200 h-full sm:bg-green-600 md:bg-red-500 lg:bg-amber-500 xl:bg-pink-400 ">
         <p className="ml-3">width less than 640: bg-cyan-200 </p>
         <p className="m-3">

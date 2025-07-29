@@ -1,6 +1,6 @@
 const MarginPadding = () => {
   return (
-    <>
+    <div className="mt-14">
       {/* generate padding/margin class dynamically -v4 */}
 
       <span className="bg-amber-500 mt-10 ml-10 pl-10 pt-10 block text-white">
@@ -19,7 +19,7 @@ const MarginPadding = () => {
       <h1 className="bg-blue-200 text-white  pb-10 mb-10 ">Heading Tag 9</h1>
 
       <h1 className="text-white bg-cyan-400 p-[3px] m-[3px]">1PX heading</h1>
-    </>
+    </div>
   );
 };
 

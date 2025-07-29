@@ -2,6 +2,15 @@
 /* @utility container {
   margin: auto;
 } */
+
+@theme {
+  --breakpoint-sm: 500px;
+  --breakpoint-md: 800px;
+
+  /* full custom "extended" */
+  --breakpoint-big: 1000px;
+}
+
 body {
   margin: 0;
   padding: 0;

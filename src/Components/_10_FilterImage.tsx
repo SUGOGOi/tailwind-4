@@ -1,6 +1,6 @@
 const _10_FilterImage = () => {
   return (
-    <div className="">
+    <div className="mt-14">
       <h1 className=" m-5  text-2xl">Original</h1>
       <div className="bg-blue-400 size-100 bg-[url('/bg1.jpg')] bg-no-repeat bg-center bg-contain"></div>
 

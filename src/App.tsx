@@ -15,6 +15,8 @@ const Column = React.lazy(() => import("./Components/_13_Column")); // for heavy
 const Flex = React.lazy(() => import("./Components/_14_Flex")); // for heavy components
 const Grid = React.lazy(() => import("./Components/_15_Grid")); // for heavy components
 const Animation = React.lazy(() => import("./Components/_17_Animation")); // for heavy components
+const Breakpoint = React.lazy(() => import("./Components/_18_Breakpoint")); // for heavy components
+const Home = React.lazy(() => import("./Components/_000_Home")); // for heavy components
 const TransitionTransform = React.lazy(
   () => import("./Components/_16_TransitionTransform")
 ); // for heavy components
@@ -29,10 +31,10 @@ import Loading from "./Components/_00_Loading";
 const App = () => {
   const router = createBrowserRouter([
     {
-      path: "/01navbar",
+      path: "/",
       element: (
         <Suspense fallback={<Loading />}>
-          <Navbar />
+          <Home />
         </Suspense>
       ),
     },
@@ -176,9 +178,19 @@ const App = () => {
         </Suspense>
       ),
     },
+
+    {
+      path: "/18-breakpoint",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <Breakpoint />
+        </Suspense>
+      ),
+    },
   ]);
   return (
     <>
+      <Navbar />
       <RouterProvider router={router} />
     </>
   );

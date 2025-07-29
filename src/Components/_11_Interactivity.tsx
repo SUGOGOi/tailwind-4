@@ -1,6 +1,6 @@
 const _11_Interactivity = () => {
   return (
-    <div className="flex">
+    <div className="flex mt-14">
       <div className="">
         <p className="mt-3 ml-3">simple</p>
         <button className="pt-1 pb-1 pl-3 pr-3 pb m-3 bg-zinc-900 text-zinc-500 rounded-sm">

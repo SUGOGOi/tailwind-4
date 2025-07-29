@@ -1,6 +1,6 @@
 const _15_Grid = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen mt-14">
       <h1 className="bg-zinc-800 text-3xl text-center text-zinc-300 p-4">
         GRID
       </h1>

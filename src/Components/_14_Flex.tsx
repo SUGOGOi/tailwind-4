@@ -1,6 +1,6 @@
 const _14_Flex = () => {
   return (
-    <div className=" h-screen">
+    <div className=" h-screen mt-14">
       <div className="bg-gray-300 size-full flex flex-col  justify-around items-center">
         <div className="bg-red-300 size-20"></div>
         <div className="bg-green-300 size-20"></div>

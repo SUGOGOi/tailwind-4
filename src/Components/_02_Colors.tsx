@@ -1,6 +1,6 @@
 const Colors = () => {
   return (
-    <>
+    <div className="mt-14">
       <p className="bg-blue-50 font-bold">Tailwind CSS Version 4</p>
       <p className="bg-blue-100 font-bold">Tailwind CSS Version 4</p>
       <p className="bg-blue-200 font-bold">Tailwind CSS Version 4</p>
@@ -80,7 +80,7 @@ const Colors = () => {
       <p className="outline-red-950  outline-2 m-3 font-bold">
         Tailwind CSS Version 4
       </p>
-    </>
+    </div>
   );
 };
 

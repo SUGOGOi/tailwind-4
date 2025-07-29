@@ -1,6 +1,6 @@
 const _09_Background = () => {
   return (
-    <>
+    <div className="mt-14">
       <div className="bg-red-400 size-100 bg-[url('/bg1.jpg')] bg-no-repeat bg-center bg-contain ">
         BG
       </div>
@@ -14,7 +14,7 @@ const _09_Background = () => {
 
       <div className="size-50 m-20 shadow-zinc-900 shadow-2xl bg-red-500"></div>
       <div className="size-50 m-20 shadow-zinc-500  shadow-inner"></div>
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,6 @@
 const _13_Column = () => {
   return (
-    <>
+    <div className="mt-14">
       <div className="columns-1 sm:columns-2 md:columns-3 gap-0">
         <h1 className="bg-red-300">Column Headng 1</h1>
         <h1 className="bg-blue-300">Column Headng 2</h1>
@@ -41,7 +41,7 @@ const _13_Column = () => {
           className="size-50  bg-no-repeat bg-center bg-contain"
         />
       </div>
-    </>
+    </div>
   );
 };
 

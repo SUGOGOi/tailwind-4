@@ -1,11 +1,8 @@
 const _04_width = () => {
   return (
-    <>
+    <div className="mt-14">
       {/* <h1 className="bg-green-400">H1 tag</h1> */}
       {/* <span className="bg-green-400">Span tag</span> */}
-      <div className="bg-zinc-900 text-center text-zinc-500 text-2xl">
-        Width
-      </div>
 
       <div className="bg-pink-600 w-30 ">Div 1</div>
       <div className="bg-pink-400 w-30 max-w-10">Div 2</div>
@@ -23,7 +20,7 @@ const _04_width = () => {
       <div className="bg-cyan-700 w-[50px] hover:w-[90px]">Div 11</div>
       <div className="bg-cyan-500 w-[70px] hover:w-[110px]">Div 12</div>
       <div className="bg-cyan-300 w-[90px] hover:w-[130px]">Div 13</div>
-    </>
+    </div>
   );
 };
 

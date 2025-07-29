@@ -2,7 +2,7 @@
 
 const _07_Position = () => {
   return (
-    <div>
+    <div className="mt-14">
       {/* <div className="bg-red-500 size-50 absolute bottom-0 right-0"></div>
       <div className="bg-green-500 size-50 absolute top-0 right-0"></div>
       <div className="bg-blue-500 size-50 absolute bottom-0 left-0"></div>

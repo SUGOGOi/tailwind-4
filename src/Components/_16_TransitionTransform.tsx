@@ -1,6 +1,6 @@
 const _16_TransitionTransform = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen mt-14">
       <h1 className="bg-zinc-900 text-2xl text-zinc-400 text-center p-5 w-full">
         TRANSITION AND TRANSFORM
       </h1>
