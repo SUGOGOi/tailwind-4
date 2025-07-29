@@ -17,6 +17,9 @@ const Grid = React.lazy(() => import("./Components/_15_Grid")); // for heavy com
 const Animation = React.lazy(() => import("./Components/_17_Animation")); // for heavy components
 const Breakpoint = React.lazy(() => import("./Components/_18_Breakpoint")); // for heavy components
 const Home = React.lazy(() => import("./Components/_000_Home")); // for heavy components
+const CustomPadding = React.lazy(
+  () => import("./Components/_19_CustomPadding")
+); // for heavy components
 const TransitionTransform = React.lazy(
   () => import("./Components/_16_TransitionTransform")
 ); // for heavy components
@@ -184,6 +187,15 @@ const App = () => {
       element: (
         <Suspense fallback={<Loading />}>
           <Breakpoint />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/19-custom-padding",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <CustomPadding />
         </Suspense>
       ),
     },
