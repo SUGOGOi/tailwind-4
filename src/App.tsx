@@ -14,6 +14,9 @@ const MediaQuery = React.lazy(() => import("./Components/_12_MediaQuery")); // f
 const Column = React.lazy(() => import("./Components/_13_Column")); // for heavy components
 const Flex = React.lazy(() => import("./Components/_14_Flex")); // for heavy components
 const Grid = React.lazy(() => import("./Components/_15_Grid")); // for heavy components
+const TransitionTransform = React.lazy(
+  () => import("./Components/_16_TransitionTransform")
+); // for heavy components
 const Interactivity = React.lazy(
   () => import("./Components/_11_Interactivity")
 ); // for heavy components
@@ -151,6 +154,15 @@ const App = () => {
       element: (
         <Suspense fallback={<Loading />}>
           <Grid />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/16-transition-transform",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <TransitionTransform />
         </Suspense>
       ),
     },
