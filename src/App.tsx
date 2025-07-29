@@ -12,6 +12,7 @@ const Background = React.lazy(() => import("./Components/_09_Background")); // f
 const FilterImage = React.lazy(() => import("./Components/_10_FilterImage")); // for heavy components
 const MediaQuery = React.lazy(() => import("./Components/_12_MediaQuery")); // for heavy components
 const Column = React.lazy(() => import("./Components/_13_Column")); // for heavy components
+const Flex = React.lazy(() => import("./Components/_14_Flex")); // for heavy components
 const Interactivity = React.lazy(
   () => import("./Components/_11_Interactivity")
 ); // for heavy components
@@ -131,6 +132,15 @@ const App = () => {
       element: (
         <Suspense fallback={<Loading />}>
           <Column />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/14-flex",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <Flex />
         </Suspense>
       ),
     },
