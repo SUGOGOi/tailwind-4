@@ -16,8 +16,8 @@
   --breakpoint-big: 1000px;
 
   /* will be apply to all top, bottom, left , right */
-  --padding-2: 200px;
-  --padding-1: 100px;
+  /* --padding-2: 200px;
+  --padding-1: 100px; */
 
   /* full custom "extended" */
   --padding-c10: 500px;
