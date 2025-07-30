@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <nav className="w-full h-15 fixed top-0 left-0">
-      <ul className="bg-black w-full h-l5 text-white m-0 flex [&>*]:flex items-center text-2xl">
+    <nav className="w-full h-15 fixed top-0 left-0 ">
+      <ul className="bg-black w-full h-l5 text-white m-0 flex [&>*]:flex items-center text-2xl justify-center gap-30">
         <li>
           <a className="p-3 hover:bg-zinc-800 " href="/">
             Home
@@ -12,7 +12,7 @@ const Navbar = () => {
           <a href="#" className="hover:text-gray-300">
             Content
           </a>
-          <ul className="absolute hidden group-hover:grid grid-cols-1 md:grid-cols-2 gap-x-2 bg-white text-black mt-11 rounded shadow-lg w-150 md:w-150 max-h-[60vh] overflow-y-auto z-50">
+          <ul className="absolute hidden group-hover:grid grid-cols-1 md:grid-cols-2 gap-x-2 bg-white text-black mt-11 rounded shadow-lg w-150 md:w-150 max-h-[60vh] overflow-y-auto z-100">
             {[
               { href: "/02colors", text: "Colors" },
               { href: "/03marginPadding", text: "Margin And Padding" },
@@ -36,7 +36,9 @@ const Navbar = () => {
               { href: "/18-breakpoint", text: "Breakpoint" },
               { href: "/19-custom-padding", text: "Custom Padding" },
               { href: "/20-darkmode-from-os", text: "Drakmode From OS" },
-              { href: "/20-darkmode-manual", text: "Drakmode Using Button" },
+              { href: "/21-darkmode-manual", text: "Drakmode Using Button" },
+              { href: "/22-google-fonts", text: "Google Fonts" },
+              { href: "/23-dropdown", text: "Dropdown" },
             ].map((item) => (
               <li key={item.href}>
                 <a

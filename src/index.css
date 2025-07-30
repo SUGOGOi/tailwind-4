@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap");
 @import "tailwindcss";
+
 /* @utility container {
   margin: auto;
 } */
+
+/* for dark mode  */
 @custom-variant dark (&:is(.dark *));
 
 @theme {
@@ -17,6 +21,8 @@
 
   /* full custom "extended" */
   --padding-c10: 500px;
+
+  --font-bitcount: "Bitcount Prop Single", "system-ui";
 }
 
 body {

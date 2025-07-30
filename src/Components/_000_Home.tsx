@@ -5,7 +5,14 @@ const _000_Home = () => {
         <h1 className="text-2xl text-shadow-zinc-900">
           All About Tailwind CSS 4 by{" "}
           <span>
-            <a href="#">Sumsum Gogoi</a>
+            <a
+              href="https://github.com/SUGOGOi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-900 font-bold text-3xl  underline"
+            >
+              Sumsum Gogoi
+            </a>
           </span>
         </h1>
       </div>

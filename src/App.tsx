@@ -18,6 +18,8 @@ const Animation = React.lazy(() => import("./Components/_17_Animation")); // for
 const Breakpoint = React.lazy(() => import("./Components/_18_Breakpoint")); // for heavy components
 const Home = React.lazy(() => import("./Components/_000_Home")); // for heavy components
 const DrakModeOS = React.lazy(() => import("./Components/_20_DrakModeOS")); // for heavy components
+const GoogleFonts = React.lazy(() => import("./Components/_22_GoogleFonts")); // for heavy components
+const Dropdown = React.lazy(() => import("./Components/_23_Dropdown")); // for heavy components
 const DarkModeManual = React.lazy(
   () => import("./Components/_21_DarkModeManual")
 ); // for heavy components
@@ -214,10 +216,28 @@ const App = () => {
     },
 
     {
-      path: "/20-darkmode-manual",
+      path: "/21-darkmode-manual",
       element: (
         <Suspense fallback={<Loading />}>
           <DarkModeManual />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/22-google-fonts",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <GoogleFonts />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/23-dropdown",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <Dropdown />
         </Suspense>
       ),
     },
