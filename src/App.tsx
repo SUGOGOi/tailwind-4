@@ -17,6 +17,10 @@ const Grid = React.lazy(() => import("./Components/_15_Grid")); // for heavy com
 const Animation = React.lazy(() => import("./Components/_17_Animation")); // for heavy components
 const Breakpoint = React.lazy(() => import("./Components/_18_Breakpoint")); // for heavy components
 const Home = React.lazy(() => import("./Components/_000_Home")); // for heavy components
+const DrakModeOS = React.lazy(() => import("./Components/_20_DrakModeOS")); // for heavy components
+const DarkModeManual = React.lazy(
+  () => import("./Components/_21_DarkModeManual")
+); // for heavy components
 const CustomPadding = React.lazy(
   () => import("./Components/_19_CustomPadding")
 ); // for heavy components
@@ -196,6 +200,24 @@ const App = () => {
       element: (
         <Suspense fallback={<Loading />}>
           <CustomPadding />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/20-darkmode-from-os",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <DrakModeOS />
+        </Suspense>
+      ),
+    },
+
+    {
+      path: "/20-darkmode-manual",
+      element: (
+        <Suspense fallback={<Loading />}>
+          <DarkModeManual />
         </Suspense>
       ),
     },

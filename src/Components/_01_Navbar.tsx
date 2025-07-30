@@ -12,7 +12,7 @@ const Navbar = () => {
           <a href="#" className="hover:text-gray-300">
             Content
           </a>
-          <ul className="absolute hidden group-hover:grid grid-cols-1 md:grid-cols-2 gap-x-2 bg-white text-black mt-11 rounded shadow-lg w-70 md:w-100 max-h-[70vh] overflow-y-auto z-50">
+          <ul className="absolute hidden group-hover:grid grid-cols-1 md:grid-cols-2 gap-x-2 bg-white text-black mt-11 rounded shadow-lg w-150 md:w-150 max-h-[60vh] overflow-y-auto z-50">
             {[
               { href: "/02colors", text: "Colors" },
               { href: "/03marginPadding", text: "Margin And Padding" },
@@ -34,11 +34,14 @@ const Navbar = () => {
               },
               { href: "/17-animation", text: "Animation" },
               { href: "/18-breakpoint", text: "Breakpoint" },
+              { href: "/19-custom-padding", text: "Custom Padding" },
+              { href: "/20-darkmode-from-os", text: "Drakmode From OS" },
+              { href: "/20-darkmode-manual", text: "Drakmode Using Button" },
             ].map((item) => (
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-3 py-3 hover:bg-gray-300"
                 >
                   {item.text}
                 </a>

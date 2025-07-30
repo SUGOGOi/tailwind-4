@@ -2,6 +2,7 @@
 /* @utility container {
   margin: auto;
 } */
+@custom-variant dark (&:is(.dark *));
 
 @theme {
   --breakpoint-sm: 500px;
@@ -24,4 +25,8 @@ body {
   font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #f5f5f5;
   color: #18181b;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
