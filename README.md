@@ -18,7 +18,7 @@ To explore Tailwind utilities by building small, focused components for:
 Each concept is separated into its own component for better understanding.
 
 ## 🔗 Live Demo
-[View Live](coming soon)
+[View Live](https://tailwind-4-seven.vercel.app/)
 
 ## 🛠️ Getting Started
 
